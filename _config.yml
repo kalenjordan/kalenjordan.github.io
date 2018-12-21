@@ -1,38 +1,54 @@
-# Website details
-name: Kalen's Blog
-description: 
-email: kalen@commercehero.io
-author: author
-lang: en
-locale: en_US
+site: Journal Jekyll Theme
 
-# Jekyll
-paginate: 10
-highlighter: rouge
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
 markdown: kramdown
-plugins: [jekyll-paginate]
-timezone: America/Austin
-paginateLabel: page
-paginate_path: "page/:num"
-permalink: /:categories/:year/:month/:day/:title
-baseurl: https://kalenjordan.github.io
 
-# Includes
-addthisId: ""
-disqusUsername: "kalenjordan-github-io"
-googleAnalyticsId: ""
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
 
-# Search engine verifications
-bing: ""
-yandex: ""
-google: ""
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Sitemap
-sitemap:
-  file: "/sitemap.xml"
-  exclude:
-    - "/404.html"
-  include_posts:
-    - "/index.html"
-  change_frequency_name: "daily"
-  priority_name: "1.00"
+paginate: 6
+paginate_path: "/blog/page:num/"
+  
