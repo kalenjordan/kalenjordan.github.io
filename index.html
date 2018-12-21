@@ -1,55 +1,64 @@
 ---
 layout: default
-title: A stunning personal blog Jekyll theme
-description: Journal is a stunning personal blog Jekyll theme with an image-focused design.
-featured_image: /images/demo/demo-portrait.jpg
+title: Home
+cover: false
+about: 'about.html'
 ---
 
-<section class="blog single">
+<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav overlay clearfix">
+            {% if page.logo %}
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                </a>
+            {% endif %}
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ site.name }}</h1>
+            <h2 class="page-description">
+                {% if site.description %} {{ site.description }}. {% endif %}
+                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
+            </h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
 
-	<div class="wrap">
 
-		{% for post in paginator.posts %}
+<main id="content" class="content" role="main">
 
-		<article class="blog-post">
 
-			<div class="blog-post__header">
-				<h2 class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
-			</div>
+    <div class="extra-pagination inner">
+        {% include pagination.html %}
+    </div>
 
-			{% if post.featured_image %}
-			<a href="{{ post.url }}" class="blog-post__image" style="background-image: url({{ post.featured_image  }});"></a>
-			{% endif %}
+    {% for post in paginator.posts %}
 
-			<div class="blog-post__content">
-				<p>{{ post.excerpt }}</p>
-				<p><a href="{{ post.url }}" class="button">Read More</a>
-			</div>
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
+        </section>
+        <footer class="post-meta">
+            {% if site.author %}
+                <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
+                {{ site.author }}
+            {% endif %}
+            {% if post.categories.size > 0 %} 
+                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+            {% endif %}
+            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+                {{ post.date | date_to_string }}
+            </time> 
+        </footer>
+    </article>
 
-		</article>
+    {% endfor %}
 
-		{% endfor %}
+    {% include pagination.html %}
 
-	</div>
-
-</section>
-
-{% if paginator.total_pages > 1 %}
-
-<section class="pagination">
-
-	{% if paginator.previous_page %}
-	<div class="pagination__prev">
-		<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
-	</div>
-	{% endif %}
-	{% if paginator.next_page %}
-	<div class="pagination__next">
-		<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-	</div>
-	{% endif %}
-
-</section>
-
-{% endif %}
+</main>

@@ -1,54 +1,16 @@
-site: Journal Jekyll Theme
-
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /blog/:slug
-  projects:
-    output: true
-    permalink: /project/:slug
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
+name: Your New Jekyll Site
+description: Blogging about stuffs
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
+google_analytics: 'UA-XXXXXXXX-X'
+gems: [jekyll-paginate]
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  
-sass:
-  style: compressed
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-
-paginate: 6
-paginate_path: "/blog/page:num/"
-  
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'Your Name'
