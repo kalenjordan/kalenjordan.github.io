@@ -7,10 +7,10 @@ highlighter: pygments
 logo: false
 paginate: 15
 basepath: '/'
-domain_name: 'https://kalenjordan.github.io'
+domain_name: 'https://kalenjordan.com'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'https://kalenjordan.github.io'
+url:            'https://kalenjordan.com'
 author:         'Kalen Jordan'
