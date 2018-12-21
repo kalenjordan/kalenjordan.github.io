@@ -30,7 +30,7 @@ contact_settings:
 
 social_settings:
   facebook_url: ''
-  twitter_url: ''
+  twitter_url: 'https://twitter.com/kalenjordan'
   instagram_url: ''
   snapchat_url: ''
   youtube_url: ''
@@ -54,8 +54,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
-  disqus_username: 'kalenjordan-github-io'
+  linkedin_url: 'https://www.linkedin.com/in/kalen'
 
 color_settings:
   background_color: '#ffffff'
@@ -160,3 +159,4 @@ advanced_settings:
   custom_styles: ""
   header_js: ""
   footer_js: ""
+  disqus_username: 'kalenjordan-github-io'
