@@ -1,7 +1,7 @@
 ---
 date: 2018-12-20 00:00:00
 featured_image: '/assets/img/Screen%20Shot%202018-12-20%20at%207.56.51%20PM.png'
-title: All Magento Extensions Should Be SaaS 2
+title: All Magento Extensions Should Be SaaS
 ---
 
 I have a theory I’ve been kicking around in the old noggin for a while, and it’s that all 3rd party Magento extensions should be SaaS apps.
