@@ -19,6 +19,20 @@ layout: default
 
 		{{ page.content }}
 
+		<!-- If disqusUsername declared -->
+		{% if site.data.settings.social_settings.disqus_username != "" %}
+
+		<!-- Full width -->
+		<div class="full">
+
+			<!-- Disqus -->
+			<div id="disqus_thread" class="mt mb"></div>
+			<script async src="//{{ site.data.settings.social_settings.disqus_username }}.disqus.com/embed.js"></script>
+
+		</div><!-- .full -->
+
+		{% endif %}
+
 	</div>
 
 </section>
