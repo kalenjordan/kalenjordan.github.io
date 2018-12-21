@@ -802,6 +802,7 @@ body:not(.post-template) .post-title {
     text-transform: uppercase;
     font-size: 1.3rem;
     white-space: nowrap;
+    margin-bottom: 14px;
 }
 
 .user-image {
