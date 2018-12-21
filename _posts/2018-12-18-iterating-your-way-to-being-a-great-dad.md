@@ -1,3 +1,7 @@
+---
+title: Iterating Your Way To Being A Great Dad
+---
+
 Was talking with a buddy recently about some of the struggles they are facing as a dad. Trying to make time for family. Trying to really be present. Struggling to put the phone down.
 
 They were asking me how I did things, and I thought it was worth writing some thoughts down in this department. Don’t get me wrong — I don’t feel like a great dad most of the time, but I have made a bit of progress that I’m happy about in recent months/years.
