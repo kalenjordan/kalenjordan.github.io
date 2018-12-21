@@ -1,7 +1,7 @@
 ---
-title: What Makes Podcasts Interesting 5
+title: What Makes Podcasts Interesting
 date: 2018-12-19 00:00:00
-featured_image: '/images/demo/demo-square.jpg'
+featured_image: '/contents/images/podcast.png'
 ---
 
 One of the things that I think is most interesting to me about podcasts is that many podcast hosts are not professional podcasters — they do something else and happen to do a podcast as well.
