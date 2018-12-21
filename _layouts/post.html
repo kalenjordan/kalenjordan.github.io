@@ -80,8 +80,8 @@ post_class: post-template
             {% endif %}
 
             <!-- Disqus comments -->
+            {% include disqus.html %}
             {% if page.disqus %}
-                {% include disqus.html %}
             {% endif %}
 
         </footer>
