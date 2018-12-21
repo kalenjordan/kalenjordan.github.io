@@ -1,5 +1,4 @@
 ---
-layout: article
 title: What Makes Podcasts Interesting
 ---
 
