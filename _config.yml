@@ -15,7 +15,7 @@ timezone: America/Austin
 paginateLabel: page
 paginate_path: "page/:num"
 permalink: /:categories/:year/:month/:day/:title
-baseurl: https://ozgrozer.github.io/dasper
+baseurl: https://kalenjordan.github.io
 
 # Includes
 addthisId: ""
