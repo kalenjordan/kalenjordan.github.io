@@ -1,7 +1,7 @@
 # Website details
-name: Name
-description: Description
-email: email@site.com
+name: Kalen's Blog
+description: 
+email: kalen@commercehero.io
 author: author
 lang: en
 locale: en_US
@@ -11,7 +11,7 @@ paginate: 10
 highlighter: rouge
 markdown: kramdown
 plugins: [jekyll-paginate]
-timezone: America/New_York
+timezone: America/Austin
 paginateLabel: page
 paginate_path: "page/:num"
 permalink: /:categories/:year/:month/:day/:title
