@@ -1,6 +1,4 @@
 ---
-date: 2018-12-20 00:00:00
-featured_image: '/assets/img/Screen%20Shot%202018-12-20%20at%207.56.51%20PM.png'
 title: All Magento Extensions Should Be SaaS
 ---
 
@@ -40,7 +38,7 @@ There’s also a huge ease of installation component here. Who wants to deal wit
 
 I think that all of the effort going into marketplace review of code should instead go into improving the REST (or GraphQL etc.) APIs. Make those APIs super robust so that there’s a ton that can be done with them. And also put a lot of work into backwards compatibility of the APIs.
 
-The stuff that Stripe, for example, has done around backwards compatibility and versioning of their APIs is insanely cool.
+The stuff that [Stripe](https://stripe.com/blog/api-versioning), for example, has done around backwards compatibility and versioning of their APIs is insanely cool.
 
 Another factor is AI. Most of the functionality covered by extensions is going to start to have an AI component to it. Think about search as an example. Sure, you could install a 3rd party faceted search into your site, or you could use a SaaS app like Klevu.
 
