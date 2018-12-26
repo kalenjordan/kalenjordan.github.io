@@ -12,7 +12,7 @@ training though.
 
 Looking to do $25/hour or roughly $2k/month.
 
-The job will mostly involve handling email customer support, occassional
+The job will mostly involve handling email customer support, occasional
 phone calls, administration of jobs and matches in the backend, and
 LinkedIn outreach.
 
