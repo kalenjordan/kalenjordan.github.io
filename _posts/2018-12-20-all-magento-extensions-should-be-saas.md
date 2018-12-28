@@ -53,7 +53,7 @@ Below are some responses/objections that I received which I want to
 respond to. Thanks to everyone for their feedback--agree or disagree, it's an 
 interesting thing to discuss!
 
-##Yes, I agree that all ecommerce should be SaaS
+## You mean all ecommerce should be SaaS?
 No, that wasn’t what I was saying :) I’m suggesting open source Magento core + code-level customization by merchants or SIs + 3rd party extensions as SaaS.
 
 ## Example types of extensions
@@ -69,13 +69,13 @@ I've had thus far and add to this as I go.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Example: one of our subscription box clients. We use the excellent extension from <a href="https://twitter.com/paradoxlabs?ref_src=twsrc%5Etfw">@paradoxlabs</a> to power this. But there is a lot of logic in that module we&#39;ve adjusted for their unique needs. Our client has avoided a SaaS subscription service in part to retain that flexibility.</p>&mdash; Scott Buchanan (@thescottsb) <a href="https://twitter.com/thescottsb/status/1076632647991021569?ref_src=twsrc%5Etfw">December 23, 2018</a></blockquote>
 
 So this is a pretty decent example - I can see how perhaps native code could be really important for a subscription box feature. One thing I will say is that it’s interesting that the vendor of this extension is actually an SI and not really a true extension company.
+
 That almost makes this more of an example of first party code that an agency builds and modifies for their customers than it does a true product company for an extension.
+
 I’d be willing to bet that the amount of revenue generated for services engagements for customizations of this extension far surpass the revenue generated from the extension sales themselves.
 
 ### Cart promotion customization
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">
-Say you want an extension that has cart promotion customization, you wouldn't want to throw the quote to the service on the cloud every time a re-calculation is needed, even if somehow the services are super fast internally, the network overhead would heavily impact the site performance when we integrate with more "services".
-</p></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Say you want an extension that has cart promotion customization, you wouldn't want to throw the quote to the service on the cloud every time a re-calculation is needed, even if somehow the services are super fast internally, the network overhead would heavily impact the site performance when we integrate with more "services".</p></blockquote>
 
 Alright so I’m not sure I’m convinced on this one. Having worked a little bit on extensions that recalculate the cart a lot like Sweet Tooth, I am somewhat familiar with how many times a cart save can happen where it perhaps is not completely necessary but just an artifact of the Magento code base.
 Let’s look at taxes and shipping. Those are 2 categories with very dominant SaaS providers and I’d argue that they need to recalculate the cost as frequently as something related to promotions would, and they seem to work just fine.
@@ -97,6 +97,8 @@ One extension that comes to mind is Unirgy Rapidflow. I know a lot of people tha
 That said, perhaps a big part of what this does can be supported by bulk APIs in the core, which is something that’s currently under active development.
 
 With a focus on SaaS-only extensions in the marketplace and doubled down resources on the flexibility and reliability of core APIs, perhaps the bulk APIs could be good enough that you wouldn’t need 3rd party import/export extensions.
+
+---
 
 ## Performance
 
