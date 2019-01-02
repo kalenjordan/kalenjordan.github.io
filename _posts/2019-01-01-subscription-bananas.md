@@ -32,6 +32,11 @@ The solution...a subscription banana service. Here are a few things I love about
 
 ------
 
+**I love the product**
+
+Okay we've already established this in the above section, but wanted
+to add it to the list for completeness.
+
 **Subscription revenue**
 
 One of the things in general I've not loved about "standard" eCommerce business models is their lack of recurring revenue, which I'm a big fan of. A subscription model obviously solves that.
