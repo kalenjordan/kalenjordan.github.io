@@ -1,6 +1,6 @@
 ----
 title: Subscription Bananas
----
+------
 
 Having been in the eCommerce technology space for some time now, I've often thought that it would be awesome to start an actual eCommerce business.
 
@@ -19,7 +19,10 @@ Sounds kind of silly I know...but let me explain.
 
 As our family has been trying to do a better job of eating healthy, we're eating a lot more fruit and less processed fruit. Apples and bananas are our main go-to's.
 
-Bananas are fantastic. A perfectly ripe banana is incredible. Tastes amazing. Good for you. Kids love them, babies love them (we have a 1 year old - one of the few things he reliably loves). They're just perfect.
+Bananas 
+[are](https://twitter.com/kalenjordan/status/1027526432795361281) 
+[just](https://twitter.com/kalenjordan/status/1006989424381579264) 
+[fantastic](https://twitter.com/kalenjordan/status/1054858081857720320). A perfectly ripe banana is incredible. Tastes amazing. Good for you. Kids love them, babies love them (we have a 1 year old - one of the few things he reliably loves). They're just perfect.
 
 But here's the problem - it's impossible to have ripe bananas stocked at your house throughout the week. If you buy them once a week, they are either green the 1st half of the week and disgusting or they're brown the 2nd half of the week and equally disgusting.
 
