@@ -1,4 +1,6 @@
-# Subscription Bananas 2
+---
+title: Subscription Bananas
+---
 
 Having been in the eCommerce technology space for some time now, I've often thought that it would be awesome to start an actual eCommerce business.
 
