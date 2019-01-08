@@ -1,5 +1,5 @@
 ---
-title: Selling a business idea
+title: Business ideas! Get your business ideas!
 
 ---
 
